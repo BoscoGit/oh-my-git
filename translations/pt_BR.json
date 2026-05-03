@@ -20,5 +20,6 @@
     "NO_GIT_MESSAGE": "Oi! Parece que você não tem o Git instalado ainda!\n\nNo Linux, instale pelo seu gerenciador de pacotes; o pacote geralmente se chama \"git\"!\n\nNo macOS 10.8 ou anterior, você pode baixar o Git em git-scm.com.",
     "SURVEY_THANKS_TEXT": "Obrigado por jogar!\n\nOh My Git! é gratuito e open-source! <3\n\nSe este jogo foi valioso para você, considere apoiar a gente no Patreon:",
     "SURVEY_HELP_TEXT": "Nos ajude a melhorar o Oh My Git!\nrespondendo algumas perguntas:",
-    "BADGE_HINT": "Você ganha um distintivo dourado por cada fase que resolver sem usar as cartas! Você consegue resolver todas usando apenas a linha de comando?"
+    "BADGE_HINT": "Você ganha um distintivo dourado por cada fase que resolver sem usar as cartas! Você consegue resolver todas usando apenas a linha de comando?",
+    "Click on these files to edit them!": "Clique nesses arquivos para editá-los!"
 }

@@ -20,5 +20,6 @@
     "NO_GIT_MESSAGE": "Hi! It seems that you don't have Git installed yet!\n\nOn Linux, please install it from your package manager, usually the package is called \"git\"!\n\nOn macOS 10.8 and below, you can download Git from git-scm.com.",
     "SURVEY_THANKS_TEXT": "Thanks for playing!\n\nOh My Git! is free and open-source! <3\n\nIf this game was valuable to you, consider joining our supporters on Patreon:",
     "SURVEY_HELP_TEXT": "Help us improving Oh My Git! by\nanswering some questions:",
-    "BADGE_HINT": "You get a golden badge for each level you solve without using the playing cards! Can you solve them all using the command line?"
+    "BADGE_HINT": "You get a golden badge for each level you solve without using the playing cards! Can you solve them all using the command line?",
+    "Click on these files to edit them!": "Click on these files to edit them!"
 }
