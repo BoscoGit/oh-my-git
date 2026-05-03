@@ -13,3 +13,6 @@ Novamente, queremos tornar isso nossa realidade base — o branch "main" deve ap
 Observe como as outras linhas do tempo e commits ainda estão lá — se algo der errado, você também pode voltar para eles.
 
 É realmente difícil *destruir* coisas com sua máquina do tempo.
+
+[win_descriptions]
+Order all tree branches into one and move the main branch ref = Ordene todos os branches em um e mova a referência do branch main

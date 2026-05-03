@@ -5,3 +5,7 @@ title = Passo a passo
 Bem-vindo à aula de hoje! Vamos aprender a fazer commits com mais precisão!
 
 Dê uma olhada nessas duas linhas do tempo. Elas têm exatamente o mesmo resultado. Mas uma delas torna muito mais fácil descobrir o que aconteceu.
+
+[win_descriptions]
+Right! Having each change in its own commit makes it easier to understand what's going on! Let's learn how to do that! = Certo! Ter cada mudança em seu próprio commit torna mais fácil entender o que aconteceu! Vamos aprender a fazer isso!
+Pick the timeline that's clearer, and make the alarm go off! = Escolha a linha do tempo mais clara e faça o alarme disparar!

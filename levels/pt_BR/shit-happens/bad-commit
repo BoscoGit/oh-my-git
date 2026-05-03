@@ -10,3 +10,8 @@ A resposta é usar `git reset [commit]`, que faz duas coisas:
 - E reseta o índice para aquele commit.
 
 Não altera seu diretório de trabalho de forma alguma, o que significa que depois disso, você pode tentar fazer o commit que quer novamente.
+
+[win_descriptions]
+In the last main commit, the numbers file contains the numbers from 1 to 10. = No último commit do main, o arquivo numbers contém os números de 1 a 10.
+The commit message of that commit is "More numbers". = A mensagem desse commit é "More numbers".
+The commit with the typo is not part of the main branch anymore. = O commit com o erro de digitação não faz mais parte do branch main.

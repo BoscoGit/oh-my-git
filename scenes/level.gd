@@ -25,7 +25,7 @@ func load(path):
 			var translated_path = path.replace("res://levels/", "res://levels/%s/" % locale)
 			if dir.file_exists(translated_path):
 				var t = helpers.parse(translated_path)
-				for key in ["title", "description", "cli", "congrats"]:
+				for key in ["title", "description", "cli", "congrats", "win_descriptions"]:
 					if t.has(key):
 						config[key] = t[key]
 
@@ -96,6 +96,18 @@ func load(path):
 						repos[repo].win_conditions[desc] = ""
 					repos[repo].win_conditions[desc] += line+"\n"
 					
+		if config.has("win_descriptions"):
+				var desc_map = {}
+				for mapping in config["win_descriptions"].split("\n"):
+					var eq_pos = mapping.find(" = ")
+					if eq_pos >= 0:
+						desc_map[mapping.substr(0, eq_pos).strip_edges()] = mapping.substr(eq_pos + 3).strip_edges()
+				for r in repos:
+					var new_conditions = {}
+					for desc in repos[r].win_conditions:
+						new_conditions[desc_map.get(desc, desc)] = repos[r].win_conditions[desc]
+					repos[r].win_conditions = new_conditions
+
 		for k in repo_actions:
 			var repo
 			if " " in k:

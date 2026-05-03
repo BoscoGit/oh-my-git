@@ -5,3 +5,6 @@ title = Restaurar um arquivo deletado
 Ops — você deletou o arquivo "essay", no qual trabalhou a noite toda!
 
 Por sorte, o Git está aqui para ajudar! Você pode usar `git checkout` para restaurar o arquivo!
+
+[win_descriptions]
+Restore the essay to contain "important content" = Restaure o ensaio para conter "important content"

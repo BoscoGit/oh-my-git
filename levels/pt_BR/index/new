@@ -13,3 +13,7 @@ Inicialmente, o índice está vazio. Para fazer um commit que contenha um novo a
 [cli]
 
 Você pode usar o autocompletar com Tab no terminal! Comece a digitar um nome de arquivo e pressione a tecla Tab para completar o nome. Isso geralmente economiza tempo!
+
+[win_descriptions]
+Add the candle. = Adicione a vela.
+Make a commit. = Faça um commit.

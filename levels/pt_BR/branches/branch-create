@@ -15,3 +15,7 @@ Branches também tornam muito fácil viajar entre diferentes lugares pela linha 
 Agora você pode viajar entre esses branches facilmente (usando `git checkout`) — experimente!
 
 Seu amigo ficou feliz por você ter ido à festa de aniversário e você também conseguiu que seu ingresso de show fosse autografado. Eba!
+
+[win_descriptions]
+Create a branch called 'birthday' that points to the birthday timeline. = Crie um branch chamado 'birthday' que aponta para a linha do tempo do aniversário.
+Create a branch called 'concert' that points to the concert timeline. = Crie um branch chamado 'concert' que aponta para a linha do tempo do show.

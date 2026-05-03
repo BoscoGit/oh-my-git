@@ -10,3 +10,6 @@ Isso removerá as alterações da pilha de stash. Se também quiser manter as al
 [congrats]
 
 Eba, você recuperou suas alterações! :)
+
+[win_descriptions]
+Did you pop the changes from the stash stack? = Você aplicou as mudanças da pilha de stash?

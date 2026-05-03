@@ -9,3 +9,6 @@ Mas então você ficou reaaalmente distraído e, depois do almoço, não consegu
 Existe um comando conveniente que mostra todos os lugares para onde seu HEAD apontou no passado:
 
     git reflog
+
+[win_descriptions]
+Find out where you've been before, and go back there! = Descubra onde você estava antes e volte para lá!

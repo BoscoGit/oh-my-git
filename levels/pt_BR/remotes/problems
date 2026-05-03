@@ -3,3 +3,7 @@ title = Problemas
 [description]
 
 Tanto você quanto seu amigo estiveram trabalhando no arquivo e querem sincronizar!
+
+[win_descriptions]
+Commit your local changes. = Faça commit das suas mudanças locais.
+Look at your friend's suggestion, make a compromise, and push it back. = Veja a sugestão do seu amigo, faça um compromisso e envie de volta.

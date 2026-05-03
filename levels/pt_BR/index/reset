@@ -9,3 +9,7 @@ Por exemplo, essas velas foram apagadas, e essa alteração foi adicionada.
 Mas você decide que foi um erro! Você só quer apagar a vela vermelha no próximo commit!
 
 Se você já atualizou o índice para um arquivo alterado, mas quer resetá-lo, pode usar `git reset`!
+
+[win_descriptions]
+Reset the changes in the green and blue candles! = Resete as mudanças nas velas verde e azul!
+And make a commit! = E faça um commit!

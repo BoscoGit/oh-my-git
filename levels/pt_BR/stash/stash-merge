@@ -10,3 +10,7 @@ e resolva o conflito de mesclagem. Faça commit das alterações resolvidas e li
 [congrats]
 
 Eba, você recuperou suas alterações! :)
+
+[win_descriptions]
+Did you resolve the conflict and commit? = Você resolveu o conflito e fez commit?
+Did you clear stash stack? = Você limpou a pilha de stash?

@@ -5,3 +5,9 @@ title = Amigo
 Seu amigo adicionou mais uma linha ao seu ensaio! Busque-a, adicione uma terceira linha e envie de volta para ele!
 
 Revezem-se até ter cinco linhas!
+
+[win_descriptions]
+Got the second line from your friend = Recebeu a segunda linha do seu amigo
+Got the fourth line from your friend. = Recebeu a quarta linha do seu amigo.
+The friend got a third line from you = Seu amigo recebeu a terceira linha de você
+The friend got a fifth line from you = Seu amigo recebeu a quinta linha de você

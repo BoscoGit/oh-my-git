@@ -7,3 +7,8 @@ Quando alteramos arquivos, o índice não muda sozinho. Precisamos usar `git add
 Vamos tentar isso!
 
 Os ícones no navegador de arquivos mostram quando o arquivo real (branco) e a versão no índice (azul) são diferentes, e quando são iguais!
+
+[win_descriptions]
+Make a change to the candle. = Faça uma mudança na vela.
+Add the candle. = Adicione a vela.
+Make a commit. = Faça um commit.

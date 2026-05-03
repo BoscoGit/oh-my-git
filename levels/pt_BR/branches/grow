@@ -13,3 +13,7 @@ E segundo, você pode viajar até o rótulo do branch. Nesse caso, quando você 
 Para viajar até um branch, digite `git checkout nome_do_branch`.
 
 E para viajar até o último commit, digite `git checkout --detach nome_do_branch`.
+
+[win_descriptions]
+Travel directly to the last yellow commit of the birthday timeline, make a change to 'you', and make a commit = Viaje ao último commit amarelo da linha do aniversário, faça uma mudança em 'you' e um commit
+Travel to the blue 'concert' branch, make a change to 'you', and a commit. = Viaje até o branch azul 'concert', faça uma mudança em 'you' e um commit.

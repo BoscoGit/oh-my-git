@@ -5,3 +5,6 @@ title = Fazendo checkout de arquivos do índice
 Então você fez alterações nos seus arquivos, mas decidiu que não quer mantê-las! Você pode usar `git checkout` para isso!
 
 O que acontece se você já atualizou o índice, como no arquivo c? Você precisa resetar o índice primeiro!
+
+[win_descriptions]
+Remove all changes in your local files! = Remova todas as mudanças nos seus arquivos locais!

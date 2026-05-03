@@ -13,3 +13,7 @@ Tente mesclar os dois commits e aborte a mesclagem depois.
 [congrats]
 
 Aaah, vamos mesclar depois...
+
+[win_descriptions]
+You tried to merge? = Você tentou fazer o merge?
+You aborted to merge? = Você abortou o merge?

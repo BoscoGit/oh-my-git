@@ -16,3 +16,8 @@ Você também pode sincronizar com
     git fetch <remoto> --prune --prune-tags
 
 Adicione uma tag chamada "v2" ao último commit e faça push para o remoto. Também receba a tag v1 para o seu repositório local.
+
+[win_descriptions]
+v1 tag in your repo = Tag v1 no seu repositório
+v2 tag in your repo = Tag v2 no seu repositório
+v2 tag in the remote = Tag v2 no repositório remoto
