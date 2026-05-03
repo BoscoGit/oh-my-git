@@ -1,0 +1,16 @@
+title = Branch a partir do stash
+
+[description]
+
+Se você quiser manter suas alterações, mas elas não pertencem ao branch principal, você pode facilmente criar um novo branch a partir das alterações guardadas no stash. Basta usar
+    git stash branch <nome-do-branch> <stash>
+Se quiser usar apenas a entrada mais recente do stash, pode deixar a opção <stash> vazia.
+
+Crie um novo branch a partir das alterações guardadas no stash!
+
+[congrats]
+
+As alterações do stash estão em um novo branch! :)
+
+[win_descriptions]
+Did you create a new branch from the stashed changes? = Você criou um novo branch a partir das mudanças do stash?

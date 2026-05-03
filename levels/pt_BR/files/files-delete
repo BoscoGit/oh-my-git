@@ -1,0 +1,22 @@
+title = Companheiros de quarto inesperados
+
+[description]
+
+O primeiro dia na Escola de Viagem no Tempo chega ao fim e você recebe a chave do seu quarto.
+Cheio de animação você abre a porta e encontra... teias de aranha! Teias de aranha em todo lugar!
+
+Remova todas as teias de aranha que puder encontrar com o cartão de remover!
+
+[cli]
+
+Na linha de comando, você pode facilmente deletar todos os arquivos que terminam em -web usando este comando:
+
+    rm *web
+
+[congrats]
+
+Seu quarto agora está muito arrumado e aconchegante! Hora de desembalar suas coisas!
+
+[win_descriptions]
+Remove all spider webs. = Remova todas as teias de aranha.
+But make sure you keep your bed! = Mas certifique-se de manter sua cama!

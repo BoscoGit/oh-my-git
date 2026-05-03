@@ -1,0 +1,19 @@
+title = Abortar uma mesclagem
+
+[description]
+
+Às vezes você quer mesclar dois commits, mas ocorre um conflito de mesclagem que você não quer resolver agora.
+
+Nessas situações você pode abortar a mesclagem para fazê-la depois. Use
+    git merge --abort
+quando estiver em um processo de mesclagem.
+
+Tente mesclar os dois commits e aborte a mesclagem depois.
+
+[congrats]
+
+Aaah, vamos mesclar depois...
+
+[win_descriptions]
+You tried to merge? = Você tentou fazer o merge?
+You aborted to merge? = Você abortou o merge?

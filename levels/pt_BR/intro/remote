@@ -1,0 +1,21 @@
+title = Trabalhando juntos
+
+[description]
+
+Vamos adicionar seu nome à nossa lista de estudantes!
+
+Já tenho um segundo commit dela na minha máquina do tempo — vamos trabalhar juntos!
+
+[cli]
+
+Para voltar aos comandos anteriores, você pode pressionar as setas para cima e para baixo. Assim, não precisa digitar comandos longos duas vezes.
+
+[congrats]
+
+Bem-vindo à escola de viagem no tempo! :) Te vejo amanhã para a primeira aula!
+
+[win_descriptions]
+Get the second commit from your teacher using `git pull`. = Busque o segundo commit do seu professor com `git pull`.
+Add your name to the list of students = Adicione seu nome à lista de estudantes
+Commit your result. = Faça commit do resultado.
+And use `git push` to send it to your teacher! = E use `git push` para enviar ao seu professor!

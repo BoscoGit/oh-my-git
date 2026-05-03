@@ -1,0 +1,19 @@
+title = Branches crescem com você!
+
+[description]
+
+Observe que há duas formas de "viajar até o fim de uma linha do tempo":
+
+Primeiro, você pode viajar diretamente para o commit, como fizemos antes.
+
+E segundo, você pode viajar até o rótulo do branch. Nesse caso, quando você fizer um novo commit, o branch crescerá com você e ainda apontará para o fim da linha do tempo!
+
+[cli]
+
+Para viajar até um branch, digite `git checkout nome_do_branch`.
+
+E para viajar até o último commit, digite `git checkout --detach nome_do_branch`.
+
+[win_descriptions]
+Travel directly to the last yellow commit of the birthday timeline, make a change to 'you', and make a commit = Viaje ao último commit amarelo da linha do aniversário, faça uma mudança em 'you' e um commit
+Travel to the blue 'concert' branch, make a change to 'you', and a commit. = Viaje até o branch azul 'concert', faça uma mudança em 'you' e um commit.

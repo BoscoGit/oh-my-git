@@ -1,0 +1,19 @@
+title = Adicionar novos arquivos ao índice
+
+[description]
+
+Até agora, quando fazíamos um commit, sempre registrávamos o estado atual de todos os objetos, certo?
+
+Mas o Git permite que você escolha quais alterações quer colocar em um commit!
+
+Para aprender como isso funciona, precisamos aprender sobre o "índice"! No índice, podemos preparar o que estará no próximo commit. Neste jogo, o índice é representado por uma aura azul ao redor dos ícones no navegador de arquivos!
+
+Inicialmente, o índice está vazio. Para fazer um commit que contenha um novo arquivo, precisamos adicioná-lo!
+
+[cli]
+
+Você pode usar o autocompletar com Tab no terminal! Comece a digitar um nome de arquivo e pressione a tecla Tab para completar o nome. Isso geralmente economiza tempo!
+
+[win_descriptions]
+Add the candle. = Adicione a vela.
+Make a commit. = Faça um commit.

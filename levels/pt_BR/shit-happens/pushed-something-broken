@@ -1,0 +1,9 @@
+title = Fiz push de algo quebrado
+
+[description]
+
+Estávamos falando sobre como desfazer um commit e corrigi-lo. Isso só ajuda quando você ainda não fez push para um repositório remoto. Quando isso aconteceu e você quer desfazer completamente os efeitos do commit, sua melhor opção é `git revert`.
+
+[win_descriptions]
+The team's main branch no longer contains the bad thing. = O branch main da equipe não contém mais o problema.
+And the history has not been modified. = E o histórico não foi modificado.

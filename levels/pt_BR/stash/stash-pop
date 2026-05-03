@@ -1,0 +1,15 @@
+title = Aplicar do Stash
+
+[description]
+
+Quando você guardou suas alterações e quer aplicá-las de volta ao seu diretório de trabalho atual, pode usar
+    git stash pop
+Isso removerá as alterações da pilha de stash. Se também quiser manter as alterações na pilha de stash, use
+    git stash apply
+
+[congrats]
+
+Eba, você recuperou suas alterações! :)
+
+[win_descriptions]
+Did you pop the changes from the stash stack? = Você aplicou as mudanças da pilha de stash?

@@ -1,0 +1,10 @@
+title = Restaurar um arquivo do passado
+
+[description]
+
+Aqui está um problema semelhante: você realmente gostou do ensaio do primeiro commit e quer tê-lo de volta! Bem, o checkout também pode restaurar coisas de commits mais antigos, assim:
+
+    git checkout [commit] [arquivo]
+
+[win_descriptions]
+Get the first version of your essay, and make a new commit with it. = Recupere a primeira versão do seu ensaio e faça um novo commit com ela.

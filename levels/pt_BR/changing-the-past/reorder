@@ -1,0 +1,16 @@
+title = Reordenando eventos
+
+[description]
+
+Ops, parece que algo foi bagunçado aqui. Você consegue colocar os eventos de volta na ordem correta?
+
+Há duas maneiras de fazer isso: Você pode arrastar o cartão de "rebase interativo" até o commit antes do que você quer alterar, depois reordenar as linhas no arquivo que abrir e salvá-lo.
+
+Ou você pode resetar a tag main para o primeiro commit e então cherry-pick commits individuais na ordem desejada. Você tem cartões para ambas as abordagens!
+
+[congrats]
+
+Sinta-se à vontade para resetar o nível e tentar a outra estratégia! Qual você prefere?
+
+[win_descriptions]
+Reorder the commits to dress yourself in the correct way = Reordene os commits para se vestir na ordem correta

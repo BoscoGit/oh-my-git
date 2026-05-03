@@ -41,7 +41,7 @@ __meta__ = {
 margin_left = 784.553
 margin_top = 702.517
 margin_right = 1136.55
-margin_bottom = 885.517
+margin_bottom = 929.517
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -57,11 +57,59 @@ margin_right = 351.0
 margin_bottom = 83.0
 text = "Sandbox"
 
-[node name="Button2" type="Button" parent="VBoxContainer"]
+[node name="LanguageButton" type="Button" parent="VBoxContainer"]
 margin_top = 88.0
 margin_right = 351.0
 margin_bottom = 127.0
+text = "Language"
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+margin_top = 132.0
+margin_right = 351.0
+margin_bottom = 171.0
 text = "Quit"
+
+[node name="LanguagePicker" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Dimmer" type="ColorRect" parent="LanguagePicker"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.7 )
+
+[node name="Panel" type="VBoxContainer" parent="LanguagePicker"]
+margin_left = 785.0
+margin_top = 620.0
+margin_right = 1151.0
+margin_bottom = 802.0
+alignment = 2
+
+[node name="SelectLabel" type="Label" parent="LanguagePicker/Panel"]
+margin_top = 21.0
+margin_right = 366.0
+margin_bottom = 50.0
+text = "Select language"
+align = 1
+
+[node name="EnglishButton" type="Button" parent="LanguagePicker/Panel"]
+margin_top = 55.0
+margin_right = 366.0
+margin_bottom = 94.0
+text = "English"
+
+[node name="PtBRButton" type="Button" parent="LanguagePicker/Panel"]
+margin_top = 99.0
+margin_right = 366.0
+margin_bottom = 138.0
+text = "Português (BR)"
+
+[node name="BackFromLangButton" type="Button" parent="LanguagePicker/Panel"]
+margin_top = 143.0
+margin_right = 366.0
+margin_bottom = 182.0
+text = "Back"
 
 [node name="Sprite" type="Sprite" parent="."]
 
@@ -72,4 +120,8 @@ texture = ExtResource( 2 )
 
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="levels"]
 [connection signal="pressed" from="VBoxContainer/Button3" to="." method="sandbox"]
+[connection signal="pressed" from="VBoxContainer/LanguageButton" to="." method="language"]
 [connection signal="pressed" from="VBoxContainer/Button2" to="." method="quit"]
+[connection signal="pressed" from="LanguagePicker/Panel/EnglishButton" to="." method="set_language" binds= [ "en" ]]
+[connection signal="pressed" from="LanguagePicker/Panel/PtBRButton" to="." method="set_language" binds= [ "pt_BR" ]]
+[connection signal="pressed" from="LanguagePicker/Panel/BackFromLangButton" to="." method="hide_language_picker"]

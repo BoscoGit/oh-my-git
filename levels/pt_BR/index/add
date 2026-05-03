@@ -1,0 +1,17 @@
+title = Atualizando arquivos no índice
+
+[description]
+
+Então você começa a trabalhar e faz alterações nos seus arquivos! O Git permite que você escolha quais dessas alterações quer colocar no próximo commit. Isso é como atualizar a versão do índice daquele arquivo para a nova versão.
+
+Isso permite que você tenha commits menores, que descrevem melhor o que você mudou!
+
+O comando para isso é o mesmo — `git add`!
+
+[congrats]
+
+Muito bem! Tente viajar entre os commits usando `git checkout`, para olhar seu conteúdo novamente!
+
+[win_descriptions]
+Make changes to all files! = Faça mudanças em todos os arquivos!
+Add only the changes of a and c, and make a commit! Finally, make a commit which captures the changes in b! = Adicione apenas as mudanças de a e c e faça um commit! Por fim, faça um commit com as mudanças de b!

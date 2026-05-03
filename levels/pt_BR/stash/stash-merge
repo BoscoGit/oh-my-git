@@ -1,0 +1,16 @@
+title = Mesclando stash aplicado
+
+[description]
+
+Quando você quiser reaplicar suas alterações, mas já continuou trabalhando no arquivo, pode ocorrer um conflito de mesclagem! Vamos praticar essa situação.
+Aplique as alterações do stash com
+    git stash pop
+e resolva o conflito de mesclagem. Faça commit das alterações resolvidas e limpe a pilha de stash depois.
+
+[congrats]
+
+Eba, você recuperou suas alterações! :)
+
+[win_descriptions]
+Did you resolve the conflict and commit? = Você resolveu o conflito e fez commit?
+Did you clear stash stack? = Você limpou a pilha de stash?

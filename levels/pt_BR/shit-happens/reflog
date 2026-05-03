@@ -1,0 +1,14 @@
+title = Voltar para onde você estava antes
+
+[description]
+
+Digamos que você estava olhando algo no passado e depois voltou para o branch main.
+
+Mas então você ficou reaaalmente distraído e, depois do almoço, não consegue lembrar em qual commit passado estava antes. Como você pode descobrir?
+
+Existe um comando conveniente que mostra todos os lugares para onde seu HEAD apontou no passado:
+
+    git reflog
+
+[win_descriptions]
+Find out where you've been before, and go back there! = Descubra onde você estava antes e volte para lá!

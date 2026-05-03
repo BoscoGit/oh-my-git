@@ -1,0 +1,17 @@
+title = Tagueando depois
+
+[description]
+
+Mas o que acontece se você esqueceu de taguear seu commit atual?
+Sem problema! Você também pode taguear commits mais antigos via
+
+    git tag <nome-da-tag> <hash-do-commit>
+
+Taguie o commit "Adding feature 2" com o nome "v1"!
+
+[congrats]
+
+Muito bem :)
+
+[win_descriptions]
+Did you create a new tag? = Você criou uma nova tag?

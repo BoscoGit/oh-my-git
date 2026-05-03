@@ -1,0 +1,16 @@
+title = Removendo tags
+
+[description]
+
+Você adicionou tags demais? Sem problema! Delete-as com
+
+    git tag -d <nome-da-tag>
+
+Remova todas as tags deste repositório!
+
+[congrats]
+
+Muito bem :)
+
+[win_descriptions]
+Did you remove all tags? = Você removeu todas as tags?

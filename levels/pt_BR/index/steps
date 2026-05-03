@@ -1,0 +1,12 @@
+title = Adicionando alterações passo a passo
+
+[description]
+
+O índice é muito útil, pois nos permite ser precisos sobre quais alterações queremos incluir em cada commit!
+
+[win_descriptions]
+Make changes to all three objects, to form a logical sequence of events! = Faça mudanças nos três objetos para formar uma sequência lógica de eventos!
+Only add one of these changes! = Adicione apenas uma dessas mudanças!
+And make a commit. = E faça um commit.
+Make a second commit that only records a single change. = Faça um segundo commit que registre apenas uma mudança.
+And a third one. = E um terceiro.

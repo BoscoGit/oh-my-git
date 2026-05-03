@@ -1,0 +1,20 @@
+title = Viajando pelo tempo
+
+[description]
+
+As caixas amarelas são pontos congelados no tempo, chamamos de "commits"! Você pode viajar entre eles usando o cartão "checkout"! (Experimente!)
+
+Você consegue descobrir o que aconteceu aqui? Então, estando no último commit, edite os arquivos para corrigir o problema e faça um novo commit!
+
+[cli]
+
+Para fazer checkout de um commit específico, digite `git checkout`, depois um espaço, e então clique com o botão direito no commit que deseja!
+
+Isso inserirá o identificador único do commit!
+
+[congrats]
+
+Maravilhoso! Agora que você está se familiarizando com a máquina do tempo, vamos ver situações mais complicadas...
+
+[win_descriptions]
+Restore sisterly peace. = Restaure a paz entre as irmãs.
