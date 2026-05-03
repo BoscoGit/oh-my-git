@@ -83,11 +83,7 @@ __meta__ = {
 [node name="Label" type="Label" parent="VBoxContainer2"]
 margin_right = 466.0
 margin_bottom = 189.0
-text = "Thanks for playing!
-
-Oh My Git! is free and open-source! <3
-
-If this game was valuable to you, consider joining our supporters on Patreon:"
+text = "SURVEY_THANKS_TEXT"
 align = 1
 autowrap = true
 

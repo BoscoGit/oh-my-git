@@ -20,3 +20,15 @@ func sandbox():
 	game.current_chapter = levels.chapters.size() - 1
 	game.current_level = levels.chapters[game.current_chapter].levels.size() -1
 	get_tree().change_scene("res://scenes/main.tscn")
+
+func language():
+	$LanguagePicker.visible = true
+
+func set_language(locale):
+	TranslationServer.set_locale(locale)
+	game.state["locale"] = locale
+	game.save_state()
+	$LanguagePicker.visible = false
+
+func hide_language_picker():
+	$LanguagePicker.visible = false

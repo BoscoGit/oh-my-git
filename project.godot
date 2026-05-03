@@ -64,6 +64,7 @@ boot_splash/bg_color=Color( 0, 0, 0, 1 )
 
 [autoload]
 
+i18n="*res://scenes/i18n.gd"
 game="*res://scenes/game.tscn"
 helpers="*res://scenes/helpers.gd"
 levels="*res://scenes/levels.gd"
