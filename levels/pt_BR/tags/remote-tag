@@ -1,0 +1,18 @@
+title = Tags Remotas
+
+[description]
+
+Quando você trabalha com repositórios remotos, as tags não são enviadas ou recebidas automaticamente.
+
+Você pode enviar uma tag com
+    git push <remoto> <nome-da-tag>
+Ou todas as tags com:
+    git push <remoto> --tags
+
+Deletar tags no seu remoto funciona com:
+    git push <remoto> --delete <nome-da-tag>
+
+Você também pode sincronizar com
+    git fetch <remoto> --prune --prune-tags
+
+Adicione uma tag chamada "v2" ao último commit e faça push para o remoto. Também receba a tag v1 para o seu repositório local.

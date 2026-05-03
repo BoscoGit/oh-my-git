@@ -1,0 +1,7 @@
+title = Deletar um arquivo no próximo commit
+
+[description]
+
+Se você quiser remover um arquivo no próximo commit, pode usar `git rm`! Isso vai deletar o arquivo localmente e no índice.
+
+Se um arquivo foi modificado, você precisará resetar essas alterações primeiro.

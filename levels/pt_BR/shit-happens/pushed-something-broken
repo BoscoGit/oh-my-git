@@ -1,0 +1,5 @@
+title = Fiz push de algo quebrado
+
+[description]
+
+Estávamos falando sobre como desfazer um commit e corrigi-lo. Isso só ajuda quando você ainda não fez push para um repositório remoto. Quando isso aconteceu e você quer desfazer completamente os efeitos do commit, sua melhor opção é `git revert`.

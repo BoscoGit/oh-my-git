@@ -1,0 +1,12 @@
+title = Desfazer um commit ruim
+
+[description]
+
+Que horror, fizemos um commit ruim! Como podemos desfazer o commit e voltar a um ponto onde podemos tentar novamente?
+
+A resposta é usar `git reset [commit]`, que faz duas coisas:
+
+- Reseta a referência do branch atual para o commit especificado.
+- E reseta o índice para aquele commit.
+
+Não altera seu diretório de trabalho de forma alguma, o que significa que depois disso, você pode tentar fazer o commit que quer novamente.

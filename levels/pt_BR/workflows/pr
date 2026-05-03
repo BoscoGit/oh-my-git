@@ -1,0 +1,5 @@
+title = Clonando um repositório
+
+[description]
+
+Seu amigo tem um problema! Clone o repositório localizado em `../friend`, crie um branch chamado "solution" e corrija o problema neste branch. Quando estiver pronto, faça um "Pull Request" usando `git tag pr`.

@@ -1,0 +1,17 @@
+title = Criando branches
+
+[description]
+
+Você foi convidado para duas festas! Em uma delas, sua banda favorita está tocando — e a outra é a festa de aniversário do seu melhor amigo. Para onde você vai? Não se preocupe — como agente de viagem no tempo em treinamento, você pode ir às duas festas!
+
+Para facilitar a identificação de cada linha do tempo, você pode criar portais temporais! (Chamamos isso de "branches".)
+
+[cli]
+
+Branches também tornam muito fácil viajar entre diferentes lugares pela linha de comando! Assim que você tiver um branch chamado "birthday", pode digitar `git checkout birthday` para viajar até ele!
+
+[congrats]
+
+Agora você pode viajar entre esses branches facilmente (usando `git checkout`) — experimente!
+
+Seu amigo ficou feliz por você ter ido à festa de aniversário e você também conseguiu que seu ingresso de show fosse autografado. Eba!

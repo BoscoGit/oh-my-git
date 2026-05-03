@@ -1,0 +1,17 @@
+title = Limpar o Stash
+
+[description]
+
+Se você quiser inspecionar sua pilha de stash, use o comando
+    git stash list
+
+Oh, você não quer manter suas alterações guardadas? São tantas? Então vá em frente e limpe a pilha com
+    git stash clear
+Se quiser descartar apenas uma entrada específica do stash, pode usar
+    git stash drop <stash>
+
+Limpe sua pilha de stash!
+
+[congrats]
+
+Tudo limpo! :)

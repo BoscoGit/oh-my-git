@@ -19,7 +19,16 @@ func load(path):
 	if dir.file_exists(path):
 		# This is a new-style level.
 		var config = helpers.parse(path)
-		
+
+		var locale = TranslationServer.get_locale()
+		if not locale.begins_with("en"):
+			var translated_path = path.replace("res://levels/", "res://levels/%s/" % locale)
+			if dir.file_exists(translated_path):
+				var t = helpers.parse(translated_path)
+				for key in ["title", "description", "cli", "congrats"]:
+					if t.has(key):
+						config[key] = t[key]
+
 		title = config.get("title", slug)
 		description = config.get("description", "(no description)")
 		

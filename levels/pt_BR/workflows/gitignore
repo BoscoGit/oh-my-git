@@ -1,0 +1,7 @@
+title = Ignorando arquivos
+
+[description]
+
+Essa galinha está correndo bastante e mudando com frequência. Não queremos tê-la nos nossos commits.
+
+Adicione-a ao arquivo .gitignore e tente usar `git add .`!

@@ -1,0 +1,9 @@
+title = Atualizar arquivos no índice
+
+[description]
+
+Quando alteramos arquivos, o índice não muda sozinho. Precisamos usar `git add` para atualizar o índice para a versão alterada do arquivo.
+
+Vamos tentar isso!
+
+Os ícones no navegador de arquivos mostram quando o arquivo real (branco) e a versão no índice (azul) são diferentes, e quando são iguais!

@@ -1,0 +1,17 @@
+title = A linha de comando
+
+[description]
+
+Esses cartões foram criados para serem fáceis de usar e lembrar! Sugerimos que você fique com eles se não tiver muita experiência com Git!
+
+[cli]
+
+Mas há outra forma de interagir com o Git:
+
+Tente digitar `git init` no terminal preto abaixo e pressionar a tecla Enter!
+
+[congrats]
+
+Legal! Em vez de usar os cartões, você também pode fazer tudo pela linha de comando!
+
+A linha de comando é muito poderosa! Frequentemente, você pode usá-la para resolver tarefas mais rapidamente do que usando uma interface gráfica.

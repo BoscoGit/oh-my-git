@@ -1,0 +1,17 @@
+title = Movendo branches
+
+[description]
+
+Um dos seus colegas bagunçou aqui e colocou os branches nas linhas do tempo erradas!
+
+Você poderia deletar e recriar esses branches — mas também pode movê-los diretamente para diferentes commits, usando
+
+    git checkout
+
+nos nomes dos branches, e depois usando
+
+    git reset --hard
+
+no commit onde você quer que o branch fique.
+
+O branch donut está no lugar certo, mas a linha do tempo ainda está incompleta — faça você realmente *comer* o donut naquele branch!

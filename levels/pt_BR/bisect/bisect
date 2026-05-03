@@ -1,0 +1,17 @@
+title = Caminho de tijolos amarelos
+
+[description]
+
+(Por favor, dê um zoom out um pouco usando a roda do mouse! :D)
+
+Que horror! Você perdeu sua chave em algum momento durante o dia!
+
+Claro, você poderia olhar cada commit individualmente para encontrá-la — mas há uma maneira melhor: sua máquina do tempo tem uma forma embutida de encontrar rapidamente o ponto em que as coisas deram errado!
+
+Primeiro, jogue o cartão "bisect start". Depois, vá até um commit onde você não tem a chave e jogue o cartão "bisect bad". Da mesma forma, vá até um commit antigo onde você tem a chave *no seu bolso* e jogue o cartão "bisect good".
+
+Depois de encontrar o último commit bom, resete o branch main para ele. O que aconteceu com a chave depois que você a perdeu?
+
+[congrats]
+
+Muito bem! :) O único problema é que agora você tem que caminhar de volta para casa de novo...

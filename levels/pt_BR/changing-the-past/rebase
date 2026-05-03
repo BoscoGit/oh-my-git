@@ -1,0 +1,15 @@
+title = Rebase
+
+[description]
+
+Tudo bem — descobriu-se que economizar tempo pela manhã utilizando universos paralelos viola os regulamentos da Associação Internacional de Viagem no Tempo. Você terá que fazer suas tarefas em sequência afinal.
+
+Viu o cartão "rebase"? Quando você o arrasta até um commit, ele copia os eventos da sua linha do tempo atual depois do especificado! Desta forma, crie uma linha do tempo limpa e linear onde você visita as três lojas.
+
+Novamente, queremos tornar isso nossa realidade base — o branch "main" deve apontar para essa linha do tempo!
+
+[congrats]
+
+Observe como as outras linhas do tempo e commits ainda estão lá — se algo der errado, você também pode voltar para eles.
+
+É realmente difícil *destruir* coisas com sua máquina do tempo.

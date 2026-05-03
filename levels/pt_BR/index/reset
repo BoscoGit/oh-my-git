@@ -1,0 +1,11 @@
+title = Resetando arquivos no índice
+
+[description]
+
+Veja a sombra escura atrás dos ícones? Essa é a versão do arquivo no último commit!
+
+Por exemplo, essas velas foram apagadas, e essa alteração foi adicionada.
+
+Mas você decide que foi um erro! Você só quer apagar a vela vermelha no próximo commit!
+
+Se você já atualizou o índice para um arquivo alterado, mas quer resetá-lo, pode usar `git reset`!

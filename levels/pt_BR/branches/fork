@@ -1,0 +1,27 @@
+title = Fazendo commits em paralelo
+
+[description]
+
+Você sabia que criar linhas do tempo paralelas é completamente legal e seguro? É verdade!
+
+Você consegue descobrir quando as coisas deram errado neste zoológico? Então, volte ao último commit bom e crie um universo paralelo onde todos sejam felizes!
+
+[cli]
+
+O animal azul representa um conceito conhecido como o ponteiro "HEAD" no Git: ele mostra qual commit é o atual.
+
+Aqui está um truque legal para ir ao commit anterior:
+
+    git checkout HEAD^
+
+Você também pode voltar dois commits digitando, por exemplo:
+
+    git checkout HEAD~2
+
+[congrats]
+
+Ufa, bom trabalho! Este parece um resultado *muito* melhor.
+
+Sinta-se à vontade para adicionar mais linhas do tempo paralelas ou torná-las mais longas.
+
+Se estiver pronto, nossa próxima missão já está esperando...

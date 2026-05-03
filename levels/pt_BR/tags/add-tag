@@ -1,0 +1,17 @@
+title = Criando tags
+
+[description]
+
+Alguns dos seus commits podem ser commits especiais. Talvez você tenha alcançado um marco ou um novo número de versão.
+
+Você pode marcar esses commits com uma flag especial chamada "tag".
+
+Escreva
+
+    git tag <nome-da-tag>
+
+para taguear seu commit.
+
+[congrats]
+
+Ótimo! Você tagueou seu primeiro commit :)

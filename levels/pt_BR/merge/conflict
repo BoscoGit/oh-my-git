@@ -1,0 +1,15 @@
+title = Contradições
+
+[description]
+
+Às vezes, as linhas do tempo vão se contradizer.
+
+Por exemplo, neste caso, um dos nossos clientes quer que estas linhas do tempo sejam mescladas, mas eles comeram coisas diferentes no café da manhã nas duas linhas do tempo.
+
+Tente mesclá-las! Você notará que haverá um conflito! A máquina do tempo deixará por sua conta como proceder: você pode editar o item problemático, ela mostrará as seções conflitantes. Você pode manter uma das duas versões — ou criar uma combinação delas! Remova os marcadores >>>, <<< e ===, e faça um novo commit para finalizar a mesclagem!
+
+Deixe sua linha do tempo finalizada ser a "main".
+
+[congrats]
+
+Hum, isso parece um bom café da manhã!

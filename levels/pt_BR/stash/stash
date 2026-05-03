@@ -1,0 +1,11 @@
+title = Stash
+
+[description]
+
+Você encontrará situações em que está trabalhando no seu projeto, mas precisa guardar suas alterações temporariamente. Para isso, você pode usar a função stash. Use
+    git stash push
+para adicionar suas alterações atuais à pilha de stash.
+
+[congrats]
+
+Que belo stash você tem aí! :)
