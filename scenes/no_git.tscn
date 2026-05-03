@@ -94,11 +94,7 @@ margin_left = 20.0
 margin_top = 21.0
 margin_right = 546.0
 margin_bottom = 252.0
-text = "Hi! It seems that you don't have Git installed yet!
-
-On Linux, please install it from your package manager, usually the package is called \"git\"!
-
-On macOS 10.8 and below, you can download Git from git-scm.com."
+text = "NO_GIT_MESSAGE"
 autowrap = true
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="levels"]
 [connection signal="pressed" from="VBoxContainer/Button3" to="." method="sandbox"]

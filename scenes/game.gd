@@ -20,7 +20,10 @@ var mutex
 func _ready():
 	mutex = Mutex.new()
 	load_state()
-	
+
+	if state.has("locale"):
+		TranslationServer.set_locale(state["locale"])
+
 	if OS.has_feature("standalone"):
 		get_tree().set_auto_accept_quit(false)
 	else:
@@ -83,7 +86,7 @@ func copy_script_to_game_env(name):
 	global_shell.run("chmod u+x '%s'" % (tmp_prefix + name))
 	
 func _initial_state():
-	return {"history": [], "solved_levels": [], "received_hints": [], "cli_badge": [], "played_cards": []}
+	return {"history": [], "solved_levels": [], "received_hints": [], "cli_badge": [], "played_cards": [], "locale": "en"}
 	
 func save_state():
 	var savegame = File.new()
